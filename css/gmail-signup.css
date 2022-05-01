@@ -1,0 +1,38 @@
+.input-text{
+    margin: 5px;
+    padding: 7px;
+    border-radius: 0;
+    border: 0;
+}
+
+input:focus{
+    border: 0;
+    outline: 0;
+    background-color: steelblue;
+    opacity: 0.35;
+}
+
+body{
+    background-image: url("/img/bg.png");
+    alignment: center;
+    text-align: center;
+}
+
+.outer-section{
+    margin-top: 10%;
+    border: black 1px solid;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.outer-section > form > h3 {
+    margin-top: 0px;
+}
+
+.btn{
+    background-color: cornflowerblue;
+    color: white;
+    border: cornflowerblue;
+    border-radius: 1px;
+}
